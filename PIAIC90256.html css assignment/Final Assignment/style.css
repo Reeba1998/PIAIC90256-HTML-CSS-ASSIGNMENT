@@ -1,0 +1,330 @@
+#navbarSupportedContent{
+  padding-left: 500px;
+}
+#nav{
+height: 100px;
+
+
+}
+.logo{
+  padding-left: 70px;
+}
+#advan{
+  width: 100%;
+  height: 600px;
+  background-color:white;
+  
+
+}
+.innovation{
+  width: 100%;
+  height: 180px;
+  border-radius: 50%;
+  padding-bottom: 10px;
+  justify-content: space-between;
+
+
+
+}
+div.item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 120px;
+  padding-left: 10px;
+  padding-top: 10px;
+
+}
+
+.caption {
+  display: block;
+  
+}
+.cap {
+  display: block;
+}
+.p{
+  padding-left: 450px;
+  
+}
+#about{
+  width: 100%;
+  height: 500px;
+  background-color:lightgrey;
+}
+#aboutus{
+  float: right;
+  padding-right: 50px;
+  padding-top:20px ;
+  
+}
+#para{
+  padding-top:40px ;
+  
+  margin: 10px 0px 50px 80px
+}
+#btn{
+  
+  margin: 10px 0px 0px 80px
+}
+#service{
+  width: 100%;
+  height: 600px;
+  background-color: white;
+  
+}
+* {
+  box-sizing: border-box;
+}
+
+
+    .card {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  margin-right: 40px;
+  
+
+}
+.row {margin: 0 -5px;
+margin-right: 10px;
+padding-right: 20px;
+padding-top: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+ 
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  margin-top: 30px;
+  padding-top: 60px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#s{
+  padding-left: 150px;
+}
+.card-img-top {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  margin-left: -30px;
+  width: 60px !important;
+  height: 60px;
+  
+}
+#portfolio{
+  width: 100%;
+  height: 600px;
+  background-color: gray;
+  
+  
+}
+#ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  padding-left: 450px;
+}
+#il{
+  float: left;
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+#p-img{
+  padding-left:200px ;
+
+}
+
+.imageColumn {
+  float: left;
+  width: 17%;
+  padding: 0px;
+  
+}
+#people{
+  width: 100%;
+  height: 700px;
+  background-color:lightgrey;
+  padding-left: 30px;
+  
+}
+.container{
+  margin: 50px auto;
+  width: 20%;
+  padding-right: 50px;
+}
+#peo{
+  float:left;
+  width: 200px;
+  height: 160px;
+  padding: 0px 20px 10px 10px;
+}
+.text{
+  text-align: justify;
+}
+#skills{
+  width: 100%;
+  height: 500px;
+  background-color: white;
+  
+  
+}
+.imageCol {
+  float: left;
+  width: 22%;
+  padding: 10px;
+  
+}
+figcaption{
+  text-align: center;
+}
+#exp{
+  width: 100%;
+  height: 300px;
+  background-color:limegreen;
+
+}
+#contact{
+  width: 100%;
+  height: 640px;
+  background-color:lightgrey;
+
+}
+
+
+
+
+
+
+.footer {
+	width: 100%;
+	background:green;;
+	display: block;
+}
+
+.inner-footer {
+	width: 95%;
+	margin: auto;
+	padding: 30px 10px;
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	justify-content: center;
+}
+
+.footer-items {
+	width: 25%;
+	padding: 10px 20px;
+	box-sizing: border-box;
+}
+
+h1 {
+	padding: 10px 0;
+	font-size: 25px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.footer-items p {
+	color: grey;
+	font-size: 16px;
+	text-align: justify;
+	line-height: 25px;
+}
+
+h2 {
+	margin: 10px 0;
+	color: wheat;
+	font-size: 16px;
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+
+.border {
+	height: 2px;
+	width: 40px;
+	background: #ff9800;
+}
+
+ul {
+	list-style: none;
+	color: #fff;
+	font-size: 15px;
+	letter-spacing: 0.5px;
+}
+
+ul a {
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	transition: 0.3s;
+}
+
+ul a:hover {
+	color: #ff9800;
+}
+
+ul li {
+	margin: 10px 0;
+	height: 25px;
+}
+
+li i {
+	margin-right: 20px;
+}
+
+.social-media {
+	width: 100%;
+	color: #fff;
+	text-align: center;
+}
+
+.social-media a {
+	text-decoration: none;
+}
+
+.social-media i {
+	height: 15px;
+	width: 15px;
+	margin: 20px 5px;
+	padding: 10px;
+	color: #fff;
+	/* border-radius: 50%; */
+	/* border: 1px solid grey; */
+	transition: 0.3s;
+}
+
+.social-media i:hover {
+	background: grey;
+}
+
+.footer-bottom {
+	padding: 10px;
+	background: #3d545f;
+	color: #fff;
+  font-size: 12px;
+  text-align: center;
+}
+
+
+
+
